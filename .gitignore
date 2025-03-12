@@ -1,1 +1,7 @@
+# Ignore Compiled: Ignore all -> Unignore all with extensions -> Unignore all dirs
+*
+!*.*
+!*/
+
+# Ignore vscode directory
 .vscode/
