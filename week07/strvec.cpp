@@ -65,7 +65,7 @@ int main()
     // 단어 단위로 데이터를 쪼갬(Word2vec) -> 토큰화, 토큰
     // const vector<string> corpus = {"i", "like", "c", "programming"};
 
-    ifstream fin("text8");
+    ifstream fin("text8.txt");
     string word;
     vector<string> corpus;
     while (fin >> word)
